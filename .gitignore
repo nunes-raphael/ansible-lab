@@ -1,1 +1,3 @@
-.vagrant/
+.vagrant/c
+id_rsa.pub
+ubuntu-bionic-18.04-cloudimg-console.log
