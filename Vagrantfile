@@ -8,9 +8,9 @@ $hosts=<<-EOF
 EOF
 
 machines = {
-    "control-node" => {"memory" => "2048", "cpu" => "4", "ip" => "2", "image" => "generic/centos7", "name" => "control-node"},
-    "host1" => {"memory" => "2048", "cpu" => "4", "ip" => "3", "image" => "ubuntu/bionic64", "name" => "host1"},
-    "host2" => {"memory" => "2048", "cpu" => "4", "ip" => "4", "image" => "generic/centos7", "name" => "host2"}
+    "control-node" => {"memory" => "2048", "cpu" => "4", "ip" => "2", "image" => "generic/oracle8", "name" => "control-node"},
+    "host1" => {"memory" => "2048", "cpu" => "4", "ip" => "3", "image" => "ubuntu/focal64", "name" => "host1"},
+    "host2" => {"memory" => "2048", "cpu" => "4", "ip" => "4", "image" => "generic/oracle8", "name" => "host2"}
 }
 
 Vagrant.configure("2") do |config|
